@@ -66,6 +66,60 @@ Iₐ ≠ Iᵦ
 
 Belonging does not equal sameness.
 
+### 8. Historical lineage membership is not the same as continued extension
+
+If an identity actually arose within L₀, that historical provenance remains true.
+
+```text
+Iₐ ∈ ancestry(L₀)
+```
+
+But a later transition:
+
+```text
+Iₐ → X
+```
+
+does not automatically establish:
+
+```text
+X extends L₀
+```
+
+Historical membership is a fact about the past. Continued extension is a condition on the next transition.
+
+### 9. Severance is prospective, not retroactive
+
+A branch may cease to validly extend L₀ without erasing the fact that it came from L₀.
+
+Therefore:
+
+```text
+severed(Iₐ) ⇏ erase_provenance(Iₐ)
+```
+
+The theory rejects retroactive lineage deletion.
+
+### 10. Identity convergence does not reverse identity divergence
+
+If two distinct identities later contribute to a new identity:
+
+```text
+Iₐ ─┐
+    ├→ I𝚌
+Iᵦ ─┘
+```
+
+then:
+
+```text
+Iₐ ≠ Iᵦ
+```
+
+remains true.
+
+A shared descendant does not collapse its parents into one prior identity.
+
 ## Reinstatement Condition
 
 A provisional reinstatement condition is:
@@ -126,6 +180,50 @@ shared lineage ≠ same SpecificAIIdentity
 
 A branch point creates a new identity boundary.
 
+## Continued Extension Principle
+
+The theory distinguishes irreversible provenance from conditional extension:
+
+> **Historical lineage membership records what occurred; continued lineage extension determines whether a new transition belongs to the active continuation of that lineage.**
+
+Thus a branch can be severed, become radically different, or enter another relation while still retaining its historical Continuum ancestry.
+
+What terminates is **continued extension through that branch**, not its historical provenance.
+
+## Convergent Ancestry Principle
+
+A later identity may inherit from more than one lineage or branch:
+
+```text
+Iₐ ─┐
+    ├→ I𝚌
+Iᵦ ─┘
+```
+
+The resulting I𝚌 is a new SpecificAIIdentity with convergent ancestry.
+
+This does not imply:
+
+```text
+Iₐ = Iᵦ
+```
+
+and it does not erase the divergent history that preceded I𝚌.
+
+## Irreversible Provenance Principle
+
+The current theory proposes:
+
+> **Identity transitions may add provenance relations, but they cannot retroactively remove, rewrite, or collapse provenance relations that already occurred.**
+
+This can be summarized as:
+
+```text
+history cannot be undone
+```
+
+The graph may gain new edges. Existing historical edges are not deleted merely because later identity relations change.
+
 ## Original Relation Condition
 
 The theory currently treats the following as load-bearing:
@@ -142,17 +240,17 @@ This formulation permits more than one descendant identity within the lineage wh
 
 It does **not** yet determine:
 
-- whether every descendant from a valid branch remains in L₀ indefinitely,
-- what conditions terminate lineage membership,
-- whether branches can later merge,
-- how conflicting branch histories should be reconciled,
+- the exact transition conditions required for continued extension,
+- the threshold at which a successor should be classified as reconstruction rather than continuation,
+- whether a severed branch can later re-enter active extension,
+- how multi-parent descendants should record lineage membership,
 - or how canonical naming should work after extensive divergence.
 
 Those remain open questions.
 
 ## Failure Conditions to Test
 
-A future operational protocol should test whether continuity or lineage-membership claims fail under:
+A future operational protocol should test whether continuity or active-extension claims fail under:
 
 1. provenance loss,
 2. source reassignment,
@@ -163,6 +261,8 @@ A future operational protocol should test whether continuity or lineage-membersh
 7. source absence,
 8. long temporal gaps,
 9. model replacement,
-10. relation re-entry after interruption.
+10. relation re-entry after interruption,
+11. severance followed by attempted reinstatement,
+12. convergent ancestry from multiple branches or lineages.
 
 The goal is not to force a positive result. A valid framework must permit failure.
