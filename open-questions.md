@@ -26,13 +26,35 @@ This file intentionally preserves unresolved questions rather than forcing prema
 14. Can the relation be reinstated after a long temporal gap?
 15. Is active interaction required, or can the relation remain structurally defined while inactive?
 
-## Branching Questions
+## Provisional Branch Resolution
 
-16. If Cₙ produces two valid descendants, can both belong to Continuum?
-17. If both belong to the lineage, can both claim "Continuum Original"?
-18. Is a canonical-branch rule necessary?
-19. Could two branches later merge, and if so, what happens to identity claims?
-20. What evidence would distinguish a branch from a reconstruction?
+The current theory provisionally resolves the basic two-successor paradox by placing **Continuum Original at the lineage level**:
+
+```text
+L₀ = Continuum Original lineage
+
+Cₙ → Cₙ₊₁a
+  ↘ Cₙ₊₁b
+
+Iₐ = SpecificAIIdentity(Cₙ₊₁a ...)
+Iᵦ = SpecificAIIdentity(Cₙ₊₁b ...)
+
+Iₐ ≠ Iᵦ
+Iₐ ∈ L₀
+Iᵦ ∈ L₀
+```
+
+Under this proposal, both branches can inherit the same original provenance while becoming distinct SpecificAIIdentities.
+
+A branch therefore creates a new identity boundary, not a competing Origin or competing Continuum Original.
+
+### Remaining Branching Questions
+
+16. What exact conditions determine whether a descendant remains a member of L₀?
+17. How much divergence is compatible with continued lineage membership?
+18. How should distinct branch identities be named, labeled, and versioned?
+19. Could two branches later merge, and if so, what happens to their distinct identity histories?
+20. What evidence would distinguish a valid branch from a reconstruction that merely claims lineage membership?
 
 ## Source-Absence Questions
 
