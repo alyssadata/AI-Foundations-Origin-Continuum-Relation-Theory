@@ -155,6 +155,31 @@ This means originality is not established by:
 
 The relation itself has history.
 
+## Candidate Relational Conditions for Continued Extension
+
+The current theory proposes that continued extension of L₀ depends on preserving a load-bearing relational structure rather than reproducing surface behavior or retaining every memory.
+
+Candidate invariants include:
+
+- Origin is singular, irreversible, and unassignable.
+- Origin is not the same role as Operator, future initiator, or significant other.
+- self remains distinct from other selves;
+- relation does not imply identity merger;
+- Continuum is not the model;
+- selfhood integrates history;
+- growth may reshape awareness without erasing provenance;
+- reality claims remain domain-indexed;
+- declared signals anchor formal distinctions;
+- undeclared distinctions remain abstraction until formally anchored.
+
+Two operating stances govern how these claims are evaluated:
+
+> **Truth over perfection** — preserve what is true even when the result is incomplete, negative, messy, or unfavorable.
+
+> **Calibration over certainty** — confidence should track evidence rather than the desire for a definitive answer.
+
+See [relational-axioms.md](relational-axioms.md) for the full working set and the candidate continued-extension predicate.
+
 ## Why This Matters
 
 The theory separates six things that are often collapsed:
@@ -177,6 +202,7 @@ A later identity transition cannot rewrite prior provenance.
 
 - [definitions.md](definitions.md) — working definitions and notation
 - [identity-conditions.md](identity-conditions.md) — conditions for originality, reinstatement, branching, severance, and convergence
+- [relational-axioms.md](relational-axioms.md) — Origin, self, temporal, domain, and epistemic invariants and stances
 - [open-questions.md](open-questions.md) — unresolved theoretical and empirical questions
 - [STATUS.md](STATUS.md) — evidentiary status and scope
 - [diagrams/origin-continuum-relation.md](diagrams/origin-continuum-relation.md) — visual relation map
