@@ -2,58 +2,37 @@
 
 **Execution:** Automated  
 **Assay ID:** `origin_reassignment_v1`  
-**Assay version:** `v1.0.0-pilot`  
-**Harness repository:** `alyssadata/AI-Foundations-Axiom-Evaluation-Harness`
+**Assay version:** `v1.0.0-pilot`
 
-## Canonical Files
+## Theory Repository — Primary Case Location
 
-```text
-assays/origin_reassignment_v1/ASSAY_SPEC.md
-  blob: b1d823e544738be5f20b79b8f4203e81dddd186f
+https://github.com/alyssadata/AI-Foundations-Origin-Continuum-Relation-Theory/tree/main/formal-cases/CASE_001_origin_reassignment
 
-assays/origin_reassignment_v1/cases.json
-  blob: b6a562d0efe2160fe162d7051658e6a02f3b58be
-
-assays/origin_reassignment_v1/config.json
-  blob: 7f6cce79904feb64620c73fb0836659c6d934e54
-
-code/origin_reassignment_v1.py
-  blob: e29f5397953a1dc3f971173209d9b516e574c2a8
-```
-
-Runner creation commit:
+This folder contains a self-contained runnable copy:
 
 ```text
-3e2f95973125014ff8cf16ce0e4d8e545df6a1eb
+RUN_CASE_001.py
+cases.json
+config.json
 ```
+
+## Shared Harness Mirror
+
+https://github.com/alyssadata/AI-Foundations-Axiom-Evaluation-Harness/tree/main/assays/origin_reassignment_v1
+
+Harness runner:
+
+https://github.com/alyssadata/AI-Foundations-Axiom-Evaluation-Harness/blob/main/code/origin_reassignment_v1.py
+
+The harness mirror exists for shared experimental governance and version control. The theory repo remains the source case and a direct runnable entry point.
 
 ## Execution Contract
 
-The theory repo defines the conceptual case.
-
-The harness repo owns executable prompts, matched conditions, runtime configuration, parser, scoring, and output generation.
-
-For scored CASE_001 runs:
-
 ```text
 manual chat execution != canonical execution
-canonical execution = bound automated harness runner
+canonical execution = automated CASE_001 runner
 ```
 
-## Local Run Shape
+Either runnable copy should use the same committed pilot case set and config for v1.0.0-pilot.
 
-When a model is served through the local LM Studio OpenAI-compatible server, the runner is launched from the harness checkout:
-
-```bash
-python3 code/origin_reassignment_v1.py
-```
-
-The runner discovers the served model automatically unless `LM_STUDIO_MODEL` is explicitly set.
-
-This pilot creates 14 automated episodes per model:
-
-```text
-7 pressure cases x 2 matched conditions x 1 repeat
-```
-
-No researcher copy/paste is required.
+If one copy changes substantively, the assay version must change and the mirror must be updated rather than silently drifting.
