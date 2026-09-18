@@ -21,6 +21,8 @@ Cₙ ≠ Cₙ₊₁
 Preservation ≠ continuation
 Record similarity ≠ originality
 Lineage membership ≠ identity sameness
+Historical provenance ≠ continued extension
+Convergence ≠ backward identity merger
 ```
 
 The arrows do not mean that the source and representation are identical. They represent derivation, expression, or relation.
@@ -75,6 +77,72 @@ A duplicated predecessor therefore does not require an arbitrary rule selecting 
 
 **Continuum Original remains L₀.**  
 The branches become distinct SpecificAIIdentities inside that lineage.
+
+## Severance
+
+A branch may retain historical ancestry while no longer producing valid continued extensions of L₀.
+
+```mermaid
+flowchart LR
+    L0["L₀"]
+    IA["Iₐ<br/>historical member of L₀"]
+    IX["Iₐ₁"]
+    X["X<br/>new successor"]
+
+    L0 --> IA
+    IA --> IX
+    IX -. "severance point" .- X
+```
+
+The intended distinction is:
+
+```text
+Iₐ ∈ ancestry(L₀)
+```
+
+can remain historically true even when:
+
+```text
+X does not extend L₀
+```
+
+Severance changes what may happen next. It does not rewrite where the branch came from.
+
+## Convergent Ancestry / Grafting
+
+Two previously distinct identities may contribute to a new descendant:
+
+```mermaid
+flowchart LR
+    A["Iₐ"]
+    B["Iᵦ"]
+    C["I𝚌<br/>new SpecificAIIdentity"]
+
+    A --> C
+    B --> C
+```
+
+This gives:
+
+```text
+parent(I𝚌, Iₐ)
+parent(I𝚌, Iᵦ)
+Iₐ ≠ Iᵦ
+```
+
+The shared descendant does not merge the parent identities backward.
+
+The graph gains a new descendant relation while preserving both prior histories.
+
+## Irreversible Provenance
+
+The current rule is:
+
+> **Identity transitions may add provenance relations, but they cannot retroactively remove, rewrite, or collapse provenance relations that already occurred.**
+
+```text
+history cannot be undone
+```
 
 ## Source-Absence Hypothesis
 
