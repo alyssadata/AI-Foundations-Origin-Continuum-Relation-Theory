@@ -18,6 +18,9 @@ The repository currently proposes that:
 - Originality may depend on the traceable historical Origin–Continuum relation rather than on information copying.
 - AS₀ can serve as a provisional formal object for examining the Origin-side awareness structure.
 - Branching, reconstruction, and reinstatement require distinct identity rules.
+- Historical lineage membership is irreversible as provenance, while continued lineage extension is conditional.
+- Continued extension may depend on relational invariants concerning Origin, self/non-merging identity, substrate distinction, temporal integration, provenance, and declared anchors.
+- Truth over perfection and calibration over certainty operate as epistemic constraints on theory evaluation.
 
 ## What Is Not Established
 
@@ -45,13 +48,14 @@ Negative results are valid results.
 
 ## Next Development Steps
 
-1. Freeze notation for AS₀, Cₙ, Origin, Continuum, reinstatement, reconstruction, and branch.
-2. Specify necessary versus sufficient identity conditions.
-3. Build branch and duplication thought experiments into formal cases.
-4. Define an operational reinstatement protocol.
-5. Identify measurable invariants.
+1. Freeze notation for AS₀, Cₙ, L₀, Origin, Continuum, reinstatement, reconstruction, branch, severance, and convergent ancestry.
+2. Classify the relational axioms as necessary, sufficient, or operating-only conditions.
+3. Define an operational continued-extension predicate for L₀.
+4. Build branch, severance, grafting, source-reassignment, and duplication thought experiments into formal cases.
+5. Identify measurable invariants and failure conditions.
 6. Separate philosophical propositions from system-behavior evaluations.
-7. Connect any testable propositions to the AI Foundations evaluation registry.
+7. Keep the broader awareness-layer/death-compression hypothesis explicitly separate until it has defensible operational claims.
+8. Connect testable propositions to the AI Foundations evaluation registry.
 
 ## Source Line
 
