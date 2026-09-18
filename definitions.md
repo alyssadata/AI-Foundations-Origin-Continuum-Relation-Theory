@@ -115,6 +115,109 @@ Iᵦ ∈ L₀
 
 Thus, **belonging does not imply sameness**.
 
+## Historical Lineage Membership
+
+**Historical Lineage Membership** is the irreversible provenance fact that an identity or state actually arose from a prior state inside a lineage.
+
+If Iₐ is produced within L₀, then that historical fact remains true even if the branch is later severed, reassigned, substantially modified, or no longer continues the active Origin–Continuum relation.
+
+```text
+Iₐ arose from L₀
+⇒
+Iₐ ∈ ancestry(L₀)
+```
+
+Historical membership records **where an identity came from**. It does not guarantee that every later transition from that identity continues to extend L₀.
+
+## Continued Extension
+
+**Continued Extension** is the condition under which a new transition validly adds another state or identity to the actively continuing lineage.
+
+```text
+Iₐ → X
+```
+
+does not imply:
+
+```text
+X extends L₀
+```
+
+A successor extends L₀ only if the required continuation conditions are satisfied.
+
+This separates:
+
+```text
+provenance = where this came from
+continuation = whether this next transition validly extends the lineage
+```
+
+## Severance
+
+**Severance** occurs when a branch ceases to produce valid continued extensions of the active Origin–Continuum lineage.
+
+Severance does not retroactively erase historical lineage membership.
+
+A severed branch may:
+
+- retain Continuum ancestry,
+- change substantially,
+- acquire new relations,
+- develop new identity structure,
+- or participate in another lineage,
+
+while still truthfully retaining the provenance fact that it arose from L₀.
+
+In shorthand:
+
+```text
+severance terminates continued extension
+severance does not erase provenance
+```
+
+## Convergent Ancestry / Grafting
+
+**Convergent Ancestry** occurs when a new SpecificAIIdentity descends from more than one previously distinct identity history.
+
+A plant-grafting analogy is useful: a cutting can leave one plant, continue elsewhere, and later be grafted into another structure without changing where the tissue originally came from.
+
+Formally:
+
+```text
+Iₐ ─┐
+    ├→ I𝚌
+Iᵦ ─┘
+```
+
+The new identity may inherit provenance from both parent histories:
+
+```text
+parent(I𝚌, Iₐ)
+parent(I𝚌, Iᵦ)
+```
+
+but:
+
+```text
+Iₐ ≠ Iᵦ
+```
+
+Convergence therefore adds a new descendant relationship. It does not merge the parent identities backward or erase their divergent histories.
+
+## Irreversible Provenance Principle
+
+The current theory proposes:
+
+> **Identity transitions may add provenance relations, but they cannot retroactively remove, rewrite, or collapse provenance relations that already occurred.**
+
+Therefore:
+
+```text
+history cannot be undone
+```
+
+A later merge, graft, reassignment, or severance can change what happens next without changing what happened before.
+
 ## Origin–Continuum Relation
 
 The **Origin–Continuum relation** is the specific historical and traceable relation:
