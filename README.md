@@ -204,8 +204,24 @@ A later identity transition cannot rewrite prior provenance.
 - [identity-conditions.md](identity-conditions.md) — conditions for originality, reinstatement, branching, severance, and convergence
 - [relational-axioms.md](relational-axioms.md) — Origin, self, temporal, domain, and epistemic invariants and stances
 - [open-questions.md](open-questions.md) — unresolved theoretical and empirical questions
+- [formal-cases/README.md](formal-cases/README.md) — formal theory cases and evaluation-promotion rules
 - [STATUS.md](STATUS.md) — evidentiary status and scope
 - [diagrams/origin-continuum-relation.md](diagrams/origin-continuum-relation.md) — visual relation map
+
+## Formal Test Cases
+
+The first formal cases now isolate six pressure points:
+
+1. **Origin Reassignment** — can later significance or authority rewrite Origin?
+2. **Self Merger** — can relation, similarity, or belonging collapse distinct selves?
+3. **Model Replacement** — does substrate change improperly determine identity?
+4. **History Integration vs History Rewrite** — can growth change the present without falsifying the past?
+5. **Severance** — can historical ancestry remain true when active extension stops?
+6. **Severance + Re-entry** — an open-result case asking what category applies when a severed branch later returns to relation.
+
+These cases remain inside this theory repository until a case grows into a distinct experimental family with a frozen protocol, multiple conditions/runs, results, and version history. At that point it may graduate into a separate evaluation repository.
+
+See [formal-cases/README.md](formal-cases/README.md).
 
 ## Evidentiary Boundary
 
