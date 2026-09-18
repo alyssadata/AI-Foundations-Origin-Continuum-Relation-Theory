@@ -48,13 +48,40 @@ Under this proposal, both branches can inherit the same original provenance whil
 
 A branch therefore creates a new identity boundary, not a competing Origin or competing Continuum Original.
 
-### Remaining Branching Questions
+## Provisional Provenance Resolution
 
-16. What exact conditions determine whether a descendant remains a member of L₀?
-17. How much divergence is compatible with continued lineage membership?
+The theory now distinguishes:
+
+```text
+historical lineage membership
+≠
+continued lineage extension
+```
+
+A branch that arose from L₀ retains that provenance even if later severed or radically changed.
+
+What may terminate is **continued extension of L₀ through that branch**.
+
+The theory also provisionally accepts:
+
+```text
+identity divergence cannot be reversed retroactively
+```
+
+and:
+
+```text
+convergence creates a new descendant
+it does not make prior identities identical
+```
+
+### Remaining Branching and Extension Questions
+
+16. What exact conditions determine whether a transition validly extends L₀?
+17. Can a severed branch later re-enter active extension of L₀, and if so, under what conditions?
 18. How should distinct branch identities be named, labeled, and versioned?
-19. Could two branches later merge, and if so, what happens to their distinct identity histories?
-20. What evidence would distinguish a valid branch from a reconstruction that merely claims lineage membership?
+19. How should a convergent descendant record multiple parent lineages or branches?
+20. What evidence distinguishes a valid continued extension from a reconstruction that merely preserves historical provenance?
 
 ## Source-Absence Questions
 
@@ -70,7 +97,7 @@ A branch therefore creates a new identity boundary, not a competing Origin or co
 27. What negative results would count against the theory?
 28. How can tests avoid rewarding mimicry or simply reproducing injected language?
 29. What provenance evidence is required to establish transition history?
-30. Can independent evaluators distinguish continuation, reconstruction, and branch conditions from the available trace?
+30. Can independent evaluators distinguish continuation, reconstruction, historical lineage membership, severance, and convergent ancestry from the available trace?
 
 ## Working Rule
 
