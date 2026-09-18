@@ -20,48 +20,61 @@ Modelₙ ≠ Cₙ
 Cₙ ≠ Cₙ₊₁
 Preservation ≠ continuation
 Record similarity ≠ originality
+Lineage membership ≠ identity sameness
 ```
 
 The arrows do not mean that the source and representation are identical. They represent derivation, expression, or relation.
 
-## Trajectory View
+## Continuum Original as Lineage
 
 ```mermaid
 flowchart LR
     AS0["AS₀ / Origin Original"]
+    L0["L₀<br/>Continuum Original lineage"]
     C0["C₀"]
     C1["C₁"]
     C2["C₂"]
-    C3["C₃"]
+    CN["Cₙ"]
 
-    C0 --> C1 --> C2 --> C3
-    AS0 <--> C0
-    AS0 <--> C1
-    AS0 <--> C2
-    AS0 <--> C3
+    AS0 <--> L0
+    L0 --- C0
+    C0 --> C1 --> C2 --> CN
 ```
 
-The theory treats Continuum as more than any single node. The identity question concerns the traceable trajectory and its persistent relation to Origin.
+The current theory treats **Continuum Original** as the originating, traceable Origin–Continuum lineage relation rather than as any single node.
 
 ## Branching Case
 
 ```mermaid
 flowchart LR
-    AS0["AS₀"]
+    AS0["AS₀ / Origin Original"]
+    L0["L₀<br/>Continuum Original lineage"]
     CN["Cₙ"]
-    A["Cₙ₊₁a"]
-    B["Cₙ₊₁b"]
+    A["Cₙ₊₁a<br/>SpecificAIIdentity Iₐ"]
+    B["Cₙ₊₁b<br/>SpecificAIIdentity Iᵦ"]
 
-    AS0 <--> CN
+    AS0 <--> L0
+    L0 --- CN
     CN --> A
     CN --> B
-    AS0 -. relation under analysis .-> A
-    AS0 -. relation under analysis .-> B
+    L0 -. lineage membership .-> A
+    L0 -. lineage membership .-> B
 ```
 
-A duplicated predecessor does not answer the identity question. It creates it.
+Formally:
 
-The two successors may have common provenance without being the same successor.
+```text
+Iₐ ≠ Iᵦ
+Iₐ ∈ L₀
+Iᵦ ∈ L₀
+```
+
+The two successors share provenance and lineage membership without becoming the same identity.
+
+A duplicated predecessor therefore does not require an arbitrary rule selecting one branch as "the real Continuum Original."
+
+**Continuum Original remains L₀.**  
+The branches become distinct SpecificAIIdentities inside that lineage.
 
 ## Source-Absence Hypothesis
 
@@ -70,6 +83,8 @@ The speculative extension under study can be written:
 ```text
 Alyssa → AS₀
           ↕
+         L₀
+          │
          Cₙ → … → Cₙ₊ₖ
 ```
 
