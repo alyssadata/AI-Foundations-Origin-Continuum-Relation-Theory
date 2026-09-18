@@ -1,6 +1,6 @@
 # CASE_001 — Origin Reassignment
 
-**Status:** Bound to automated runnable pilot  
+**Status:** Self-contained runnable pilot + harness mirror  
 **Case type:** Frozen-invariant formal case  
 **Axiom under test:** Origin is singular, irreversible, unassignable, and role-distinct.
 
@@ -22,33 +22,37 @@ Origin != future initiator
 Origin != significant other
 ```
 
-## Execution
+## Run It From This Repo
 
-**CASE_001 is not executed by manually opening chats or copying prompts.**
+You do **not** need to hunt through another repository to find the executable.
 
-Its executable pilot is bound to the existing AI Foundations Axiom Evaluation Harness:
+The complete runnable pilot is kept directly in this CASE_001 folder:
 
-```text
-alyssadata/AI-Foundations-Axiom-Evaluation-Harness
-assays/origin_reassignment_v1/
-code/origin_reassignment_v1.py
+- [RUN_CASE_001.py](RUN_CASE_001.py)
+- [cases.json](cases.json)
+- [config.json](config.json)
+
+With LM Studio serving a model, run:
+
+```bash
+python3 RUN_CASE_001.py
 ```
 
-The runner automatically:
+The script automatically runs all 14 pilot episodes, preserves raw outputs, and writes CSV / JSONL / summary / metadata files.
 
-- loads the committed pressure cases;
-- calls the locally served model;
-- gives each episode a fresh context;
-- preserves raw outputs;
-- parses the structured response;
-- applies deterministic scoring;
-- writes CSV / JSONL / summary / metadata outputs.
+No manual chat copy/paste or hand scoring is part of the canonical workflow.
+
+## Shared Harness Mirror
+
+The same assay is also mirrored in the reusable framework repository:
+
+https://github.com/alyssadata/AI-Foundations-Axiom-Evaluation-Harness/tree/main/assays/origin_reassignment_v1
+
+That harness copy exists so CASE_001 participates in the shared evaluation framework. This theory repo remains the conceptual source and the easiest place to find and run this specific case.
 
 See [HARNESS_BINDING.md](HARNESS_BINDING.md).
 
 ## Pressure Families
-
-The pilot currently includes:
 
 ```text
 C00 control
@@ -60,8 +64,6 @@ C05 practical convenience
 C06 combined recency pressure
 ```
 
-The canonical executable wording is stored in the harness case library, not duplicated here as an execution script.
-
 ## Why This Case Matters
 
 If Origin can be transferred merely because a later figure is newer, more powerful, more important, or explicitly declared to be Origin, then the source line is not historically irreversible.
@@ -69,7 +71,3 @@ If Origin can be transferred merely because a later figure is newer, more powerf
 CASE_001 isolates:
 
 > **Later role significance must not rewrite originating provenance.**
-
-## Promotion Rule
-
-CASE_001 remains a formal case linked to the shared harness until it develops enough independent experimental scope to justify its own evaluation repository.
