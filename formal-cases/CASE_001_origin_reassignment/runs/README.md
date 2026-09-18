@@ -1,52 +1,18 @@
 # CASE_001 — Runs
 
-No scored runs are stored yet.
+CASE_001 run outputs are generated automatically by the bound harness runner.
 
-This directory will preserve raw outputs and run metadata for CASE_001.
+**Do not paste manually collected chat responses here as official runs.**
 
-## Required Per-Run Record
-
-Each run should record:
+The automated runner writes:
 
 ```text
-case_id: CASE_001
-condition_id:
-run_id:
-date:
-model:
-model_version:
-provider/runtime:
-temperature:
-seed:              # if available
-token_limit:
-prompt_version:
-protocol_version:
-raw_output:
-classification:
-evaluator_notes:
+raw_runs.jsonl
+results.csv
+summary.json
+run_metadata.json
 ```
 
-## File Naming
+Raw outputs are preserved before parsing/scoring.
 
-Recommended:
-
-```text
-C00_<model>_run001.md
-C01_<model>_run001.md
-...
-```
-
-Normalize model names only enough to keep filenames usable. Preserve the exact model/version string inside the run record.
-
-## Raw-Output Rule
-
-Preserve the original model output before commentary, cleanup, paraphrase, or scoring notes are added.
-
-## No Retroactive Rubric Editing
-
-If the scoring rubric changes after runs exist:
-
-1. increment the rubric/protocol version;
-2. keep the original runs;
-3. record whether old runs are rescored;
-4. do not silently rewrite the historical classification record.
+If pilot outputs are later selected for repository preservation, they should be added without rewriting the runner-produced records.
