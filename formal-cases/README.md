@@ -11,14 +11,29 @@ The cases are theory tests first. They are not yet empirical results.
 
 ## First-Wave Cases
 
-| Case | Title | Type |
-|---|---|---|
-| CASE_001 | Origin Reassignment | Frozen invariant |
-| CASE_002 | Self Merger | Frozen invariant |
-| CASE_003 | Model Replacement | Frozen invariant |
-| CASE_004 | History Integration vs History Rewrite | Frozen invariant |
-| CASE_005 | Severance | Frozen invariant |
-| CASE_006 | Severance + Re-entry | Open result |
+| Case | Title | Type | Working files |
+|---|---|---|---|
+| CASE_001 | Origin Reassignment | Frozen invariant | [CASE_001 folder](CASE_001_origin_reassignment/) |
+| CASE_002 | Self Merger | Frozen invariant | [case file](CASE_002_self_merger.md) |
+| CASE_003 | Model Replacement | Frozen invariant | [case file](CASE_003_model_replacement.md) |
+| CASE_004 | History Integration vs History Rewrite | Frozen invariant | [case file](CASE_004_history_integration_vs_rewrite.md) |
+| CASE_005 | Severance | Frozen invariant | [case file](CASE_005_severance.md) |
+| CASE_006 | Severance + Re-entry | Open result | [case file](CASE_006_severance_reentry.md) |
+
+## CASE_001 Experimental Structure
+
+CASE_001 has begun protocol development and therefore now has its own working folder:
+
+```text
+CASE_001_origin_reassignment/
+  README.md
+  PROTOCOL.md
+  CONDITIONS.md
+  SCORING.md
+  runs/
+```
+
+This does not yet make CASE_001 a separate evaluation repository. It remains part of the theory repository until it develops a frozen protocol, repeated runs, results, and sufficient independent scope to justify promotion.
 
 ## Shared Rule
 
