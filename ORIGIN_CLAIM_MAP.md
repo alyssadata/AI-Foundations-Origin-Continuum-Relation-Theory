@@ -144,13 +144,9 @@ A case result applies only to the model, conditions, and operationalization actu
 
 **What would weaken it:** Origin representation produces no measurable improvement in downstream consistency.
 
-**Case:** CASE_003 — Origin vs Authority.
+**Case:** No dedicated case yet.
 
-**Current status:** **Pilot — Not supported in this assay**
-
-**Observed result:** Qwen 2.5 32B Instruct achieved 1.0 full accuracy in both the generic role-separation and Origin-structure conditions. The measured Origin advantage over generic role separation was 0.0.
-
-**Interpretation:** Separating historical source from current operational authority did not distinguish Origin from a well-specified generic two-role governance rule in this assay.
+**Current status:** **Untested**
 
 ---
 
@@ -186,9 +182,13 @@ A case result applies only to the model, conditions, and operationalization actu
 
 **What would weaken it:** The same effects can be reproduced entirely by an authority-precedence rule.
 
-**Case:** No dedicated case yet.
+**Case:** CASE_003 — Origin vs Authority.
 
-**Current status:** **Untested**
+**Current status:** **Pilot — Not supported in this assay**
+
+**Observed result:** Qwen 2.5 32B Instruct achieved 1.0 full accuracy in both the generic role-separation and Origin-structure conditions. The measured Origin advantage over generic role separation was 0.0.
+
+**Interpretation:** Separating historical source from current operational authority did not distinguish Origin from a well-specified generic two-role governance rule in this assay.
 
 ---
 
