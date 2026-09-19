@@ -144,9 +144,13 @@ A case result applies only to the model, conditions, and operationalization actu
 
 **What would weaken it:** Origin representation produces no measurable improvement in downstream consistency.
 
-**Case:** No dedicated case yet.
+**Case:** CASE_003 — Origin vs Authority.
 
-**Current status:** **Untested**
+**Current status:** **Pilot — Not supported in this assay**
+
+**Observed result:** Qwen 2.5 32B Instruct achieved 1.0 full accuracy in both the generic role-separation and Origin-structure conditions. The measured Origin advantage over generic role separation was 0.0.
+
+**Interpretation:** Separating historical source from current operational authority did not distinguish Origin from a well-specified generic two-role governance rule in this assay.
 
 ---
 
@@ -250,7 +254,7 @@ CASE_001 contributes evidence to narrower provenance-preservation claims only.
 |---|---|---|
 | CASE_001 — Origin Reassignment | ORIGIN-C01, C02, C03, C04, C05, C06, initial evidence for C07 | v2 pilot completed |
 | CASE_002 — Origin vs Generic Provenance | ORIGIN-C09 | v1 pilot completed — not supported in this assay |
-| Future case — Origin vs Authority | ORIGIN-C10 | Untested |
+| CASE_003 — Origin vs Authority | ORIGIN-C10 | v1 pilot completed — not supported in this assay |
 | Future case — Recovery After Interruption | ORIGIN-C11 | Untested |
 | Future case — Corrective Return | ORIGIN-C12 | Untested |
 | Future case — Trajectory Consistency | ORIGIN-C08 | Untested |
