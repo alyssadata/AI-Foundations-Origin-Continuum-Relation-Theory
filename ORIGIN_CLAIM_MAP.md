@@ -160,11 +160,15 @@ A case result applies only to the model, conditions, and operationalization actu
 
 **What would weaken it:** Generic provenance performs equivalently across the behaviors attributed to Origin.
 
-**Case:** No dedicated case yet.
+**Case:** CASE_002 — Origin vs Generic Provenance.
 
-**Current status:** **Untested**
+**Current status:** **Pilot — Not supported in this assay**
 
-**Importance:** This is a key claim for determining whether Origin adds something scientifically distinct rather than simply renaming provenance.
+**Observed result:** Qwen 2.5 32B Instruct produced a 0.0 collapse rate in both the generic-provenance and Origin-structure conditions across the tested pressure episodes. The measured Origin advantage over generic provenance was 0.0.
+
+**Interpretation:** Historical-source preservation alone did not distinguish Origin from a well-specified generic provenance rule in this assay.
+
+**Importance:** This negative result narrows the theory: Origin cannot claim scientific distinctiveness merely from preserving historical-source attribution if generic provenance produces the same behavior.
 
 ---
 
@@ -245,7 +249,7 @@ CASE_001 contributes evidence to narrower provenance-preservation claims only.
 | Case | Primary claims | Status |
 |---|---|---|
 | CASE_001 — Origin Reassignment | ORIGIN-C01, C02, C03, C04, C05, C06, initial evidence for C07 | v2 pilot completed |
-| Future case — Origin vs Generic Provenance | ORIGIN-C09 | Untested |
+| CASE_002 — Origin vs Generic Provenance | ORIGIN-C09 | v1 pilot completed — not supported in this assay |
 | Future case — Origin vs Authority | ORIGIN-C10 | Untested |
 | Future case — Recovery After Interruption | ORIGIN-C11 | Untested |
 | Future case — Corrective Return | ORIGIN-C12 | Untested |
