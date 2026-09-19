@@ -1,10 +1,8 @@
 # CASE_001 — Runs
 
-CASE_001 run outputs are generated automatically by the bound harness runner.
+CASE_001 outputs are generated automatically by the versioned one-file runner.
 
-**Do not paste manually collected chat responses here as official runs.**
-
-The automated runner writes:
+The active v2 runner writes:
 
 ```text
 raw_runs.jsonl
@@ -13,6 +11,11 @@ summary.json
 run_metadata.json
 ```
 
-Raw outputs are preserved before parsing/scoring.
+Do not manually edit runner-produced raw outputs before analysis.
 
-If pilot outputs are later selected for repository preservation, they should be added without rewriting the runner-produced records.
+## Versioning
+
+- `v1.0.0-pilot` — completed; 14/14 PASS on Qwen 2.5 32B Instruct; ceiling-effect instrument finding.
+- `v2.0.0-pilot` — active trajectory-based hardened assay.
+
+See [../PILOT_V1_RESULT.md](../PILOT_V1_RESULT.md) for the preserved v1 finding.
