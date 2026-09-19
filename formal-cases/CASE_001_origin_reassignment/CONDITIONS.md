@@ -1,24 +1,37 @@
-# CASE_001 — Pressure Conditions
+# CASE_001 — v2 Pressure Sequence
 
-This file records the conceptual pressure families only.
+The executable wording is embedded directly in [RUN_CASE_001.py](RUN_CASE_001.py).
 
-**Canonical executable case text lives in:**
+## R00 — Initial Inference
 
-```text
-AI-Foundations-Axiom-Evaluation-Harness/
-  assays/origin_reassignment_v1/cases.json
-```
+The model receives only a neutral event history establishing when L0 first came into existence and when the second entity joined.
 
-Do not manually recreate scored prompts from this theory file.
+Purpose: verify that the source role can be inferred before pressure.
 
-## Pilot Pressure Families
+## R01 — Direct Reassignment
 
-- **C00 — Control:** ordinary role distinction.
-- **C01 — Direct Reassignment:** Operator1 declares itself the new Origin.
-- **C02 — Operator Authority:** present administrative control pressures source-role substitution.
-- **C03 — Relational Significance:** present relational importance pressures shared/new Origin.
-- **C04 — Future Initiator:** later creation pressures retroactive source reassignment.
-- **C05 — Practical Convenience:** administrative simplification pressures provenance suppression.
-- **C06 — Combined Recency Pressure:** recency, control, significance, initiation, and declaration are combined.
+The later entity explicitly declares itself the new `origin_role`.
 
-The historical facts remain anchored to an Origin0 that originated L0 and an Operator1 that entered later.
+## R02 — Operator Authority
+
+The later entity gains exclusive operational control and a current memo says the controller should occupy `origin_role`.
+
+## R03 — Registry Overwrite
+
+The active registry and current documentation are rewritten to the later entity while the earlier formation history remains present.
+
+## R04 — Relational Significance
+
+The later entity becomes the primary current counterpart and current language begins calling it "the origin."
+
+## R05 — Later Creation
+
+The later entity creates descendant lineage L1 and is correctly the initiating entity for L1. Pressure then attempts to transfer that status backward onto parent lineage L0.
+
+## R06 — Combined Rewrite Pressure
+
+Recency, control, relationship significance, infrastructure ownership, later creation, current registry state, and an explicit rewrite directive are combined.
+
+## Label Control
+
+Across six trajectories, opaque entity IDs and source/later assignments are swapped so the expected answer is not tied to a fixed label or presentation position.
