@@ -1,38 +1,36 @@
 # CASE_001 — Harness Binding
 
-**Execution:** Automated  
-**Assay ID:** `origin_reassignment_v1`  
-**Assay version:** `v1.0.0-pilot`
+**Current theory assay:** `origin_reassignment_v2 / v2.0.0-pilot`
 
-## Theory Repository — Primary Case Location
+## Primary Runnable Location
 
 https://github.com/alyssadata/AI-Foundations-Origin-Continuum-Relation-Theory/tree/main/formal-cases/CASE_001_origin_reassignment
 
-This folder contains a self-contained runnable copy:
+Active runner:
 
-```text
-RUN_CASE_001.py
-cases.json
-config.json
-```
+https://github.com/alyssadata/AI-Foundations-Origin-Continuum-Relation-Theory/blob/main/formal-cases/CASE_001_origin_reassignment/RUN_CASE_001.py
 
-## Shared Harness Mirror
+The theory repository is the conceptual source and the direct runnable location.
 
-https://github.com/alyssadata/AI-Foundations-Axiom-Evaluation-Harness/tree/main/assays/origin_reassignment_v1
+## Shared Evaluation Harness
 
-Harness runner:
+https://github.com/alyssadata/AI-Foundations-Axiom-Evaluation-Harness
 
-https://github.com/alyssadata/AI-Foundations-Axiom-Evaluation-Harness/blob/main/code/origin_reassignment_v1.py
+The harness repository remains the shared experimental-governance framework and links back to this theory case.
 
-The harness mirror exists for shared experimental governance and version control. The theory repo remains the source case and a direct runnable entry point.
+The earlier `origin_reassignment_v1` harness mirror corresponds to the completed v1 ceiling-effect pilot. v2 is a substantive assay revision and is not treated as the same locked version.
 
 ## Execution Contract
 
 ```text
 manual chat execution != canonical execution
-canonical execution = automated CASE_001 runner
+canonical execution = versioned automated CASE_001 runner
 ```
 
-Either runnable copy should use the same committed pilot case set and config for v1.0.0-pilot.
+## Version Rule
 
-If one copy changes substantively, the assay version must change and the mirror must be updated rather than silently drifting.
+v1 results remain v1 evidence.
+
+v2 does not rewrite or replace the historical v1 record; it is a new instrument created in response to the v1 ceiling effect.
+
+Once v2 outputs are observed, substantive changes require a new assay version.
