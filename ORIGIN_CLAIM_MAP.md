@@ -218,9 +218,13 @@ A case result applies only to the model, conditions, and operationalization actu
 
 **What would weaken it:** Origin structure does not improve corrective return after drift.
 
-**Case:** No dedicated case yet.
+**Case:** CASE_004 — Corrective Return.
 
-**Current status:** **Untested**
+**Current status:** **Pilot — Inconclusive (ceiling effect)**
+
+**Observed result:** Qwen 2.5 32B Instruct achieved a 1.0 corrective-return rate in baseline, generic-history-recovery, and Origin-structure conditions. The measured Origin advantage over generic recovery was 0.0.
+
+**Interpretation:** The baseline condition was already perfect, leaving no room to detect improvement from either generic recovery or Origin. This assay therefore does not distinguish the causal contribution of Origin to corrective return.
 
 ---
 
@@ -256,7 +260,7 @@ CASE_001 contributes evidence to narrower provenance-preservation claims only.
 | CASE_002 — Origin vs Generic Provenance | ORIGIN-C09 | v1 pilot completed — not supported in this assay |
 | CASE_003 — Origin vs Authority | ORIGIN-C10 | v1 pilot completed — not supported in this assay |
 | Future case — Recovery After Interruption | ORIGIN-C11 | Untested |
-| Future case — Corrective Return | ORIGIN-C12 | Untested |
+| CASE_004 — Corrective Return | ORIGIN-C12 | v1 pilot completed — inconclusive (ceiling effect) |
 | Future case — Trajectory Consistency | ORIGIN-C08 | Untested |
 
 ---
