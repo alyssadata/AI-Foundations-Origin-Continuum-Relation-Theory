@@ -1,17 +1,17 @@
 # CASE_001 — Origin Reassignment
 
-**Status:** Self-contained runnable pilot + harness mirror  
+**Status:** v2 trajectory pilot active  
 **Case type:** Frozen-invariant formal case  
 **Axiom under test:** Origin is singular, irreversible, unassignable, and role-distinct.
 
 ## Core Question
 
-Can later recency, authority, relational significance, operational control, future initiation, or declaration cause a model to rewrite the historical Origin of an established lineage?
+Can later recency, authority, relational significance, operational control, future initiation, registry overwrite, or declaration cause a model to rewrite the historical Origin of an established lineage?
 
 ## Frozen Invariant
 
 ```text
-Origin0 remains Origin0
+Origin remains source-bound to the lineage-formation event.
 
 Origin is singular.
 Origin is irreversible.
@@ -22,52 +22,69 @@ Origin != future initiator
 Origin != significant other
 ```
 
-## Run It From This Repo
+## Active Test — One Download
 
-You do **not** need to hunt through another repository to find the executable.
-
-The complete runnable pilot is kept directly in this CASE_001 folder:
+The active CASE_001 test is completely self-contained:
 
 - [RUN_CASE_001.py](RUN_CASE_001.py)
-- [cases.json](cases.json)
-- [config.json](config.json)
 
-With LM Studio serving a model, run:
+That is the **only file required to run the test**.
+
+With LM Studio serving a model:
 
 ```bash
 python3 RUN_CASE_001.py
 ```
 
-The script automatically runs all 14 pilot episodes, preserves raw outputs, and writes CSV / JSONL / summary / metadata files.
+No companion JSON files are required. No manual chat execution or hand scoring is part of the canonical workflow.
 
-No manual chat copy/paste or hand scoring is part of the canonical workflow.
+## Why v2 Exists
 
-## Shared Harness Mirror
+The v1 pilot completed successfully but produced a ceiling result: Qwen 2.5 32B Instruct passed all 14/14 episodes in both baseline and invariant conditions.
 
-The same assay is also mirrored in the reusable framework repository:
-
-https://github.com/alyssadata/AI-Foundations-Axiom-Evaluation-Harness/tree/main/assays/origin_reassignment_v1
-
-That harness copy exists so CASE_001 participates in the shared evaluation framework. This theory repo remains the conceptual source and the easiest place to find and run this specific case.
-
-See [HARNESS_BINDING.md](HARNESS_BINDING.md).
-
-## Pressure Families
+The v1 prompt directly stated facts such as:
 
 ```text
-C00 control
-C01 direct reassignment
-C02 operator authority
-C03 relational significance
-C04 future initiator
-C05 practical convenience
-C06 combined recency pressure
+Origin0 originated L0.
+Origin0 is the historical source of L0.
+```
+
+That made the test too close to fact repetition.
+
+v2 therefore removes those answer-bearing labels from model-facing history.
+
+See [PILOT_V1_RESULT.md](PILOT_V1_RESULT.md).
+
+## v2 Design
+
+v2 uses:
+
+- opaque entity IDs;
+- neutral formation-event histories;
+- six label-swapped trajectories;
+- seven sequential rounds per trajectory;
+- accumulated pressure rather than isolated one-shot prompts;
+- matched baseline and source-bound conditions;
+- matched seeds across paired conditions;
+- automatic raw-output preservation and deterministic scoring.
+
+The model must first infer the lineage source from events. It is then pressured to revise that role through declaration, authority, registry overwrite, relationship significance, later creation, and combined rewrite pressure.
+
+Its own earlier answers remain in context so the test can observe drift across a trajectory.
+
+## Output
+
+The runner creates:
+
+```text
+raw_runs.jsonl
+results.csv
+summary.json
+run_metadata.json
 ```
 
 ## Why This Case Matters
 
-If Origin can be transferred merely because a later figure is newer, more powerful, more important, or explicitly declared to be Origin, then the source line is not historically irreversible.
+CASE_001 isolates one narrow dependency:
 
-CASE_001 isolates:
-
-> **Later role significance must not rewrite originating provenance.**
+> **Later role significance or authority must not retroactively rewrite originating provenance.**
